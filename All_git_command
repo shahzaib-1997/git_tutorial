@@ -1,0 +1,374 @@
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git --version
+git version 2.40.0.windows.1
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git config --global user.name "shahzaib-1997"
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git config --global user.email "smsashafqat@gmail.com7"
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git init
+Initialized empty Git repository in C:/Users/Shahzaib-PC/OneDrive/Git Training/User 1/.git/
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git simple_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add simple_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   simple_file.py
+
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git status
+On branch main
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   simple_file.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        another_file.py
+
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git status
+On branch main
+
+No commits yet
+  (use "git rm --cached <file>..." to unstage)
+        new file:   another_file.py
+
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git commit -m "Initial Commit"
+[main (root-commit) 6f3fbc0] Initial Commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 another_file.py
+ create mode 100644 simple_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add .
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git commit -m "Added subtract function"
+[main 47bdb96] Added subtract function
+ 1 file changed, 2 insertions(+)
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git log
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+...skipping...
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+clear mark: ...skipping...
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+set mark: ...skipping...
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+set mark: ...skipping...
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+set mark: ...skipping...
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+...skipping...
+
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+...skipping...
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+HELP -- Press RETURN for more, or q when done...skipping...
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+commit 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:07:53 2023 +0500
+
+    Initial Commit
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add .
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git commit -m "Added test file"        
+[main d4fd6a2] Added test file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git log
+commit d4fd6a2b4100ead1db62a446a8959b75fbace82c (HEAD -> main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:15:33 2023 +0500
+
+    Added test file
+
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab
+Date:   Wed May 24 17:09:13 2023 +0500
+    Added subtract function
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout d4fd6a2b4100ead1db62a446a8959b75fbace82c
+Note: switching to 'd4fd6a2b4100ead1db62a446a8959b75fbace82c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git switch -
+Switched to branch 'main'
+Note: switching to '47bdb9618f8fccf3af53d4be2b664550d08b3cab'.
+
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+
+Or undo this operation with:
+
+
+HEAD detached at 47bdb96
+nothing to commit, working tree clean
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout main
+Switched to branch 'main'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add .
+[main 2d89889] Latest
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 test_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout main     
+Already on 'main'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git branch child
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git branch --delete child
+Deleted branch child (was 2d89889).
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git branch child_branch  
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout child_branch  
+Switched to branch 'child_branch'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout -b shahzaib 
+Switched to a new branch 'shahzaib'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1>
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add .
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git commit -m "Added Test file"
+[shahzaib 1281963] Added Test file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git status
+On branch shahzaib
+nothing to commit, working tree clean
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git log   
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+
+    Added Test file
+
+commit 2d898897319d2c38e3fba2e563e0616a85e96181 (main, child_branch)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+
+
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+
+    Added test file
+
+commit 47bdb9618f8fccf3af53d4be2b664550d08b3cab
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:09:13 2023 +0500
+
+    Added subtract function
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout child_branch      
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git merge shahzaib       
+Updating 2d89889..1281963
+Fast-forward
+ test_file.py | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 test_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout other_user
+error: pathspec 'other_user' did not match any file(s) known to git
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout -b other_user 
+Switched to a new branch 'other_user'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout child_branch 
+Switched to branch 'child_branch'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git merge other_user      
+Updating 1281963..8cf541d
+Fast-forward
+ __pycache__/another_file.cpython-311.pyc | Bin 0 -> 298 bytes
+ __pycache__/test_file.cpython-311.pyc    | Bin 0 -> 296 bytes
+ main_file.py                             |   9 +++++++++
+ 3 files changed, 9 insertions(+)
+ create mode 100644 __pycache__/another_file.cpython-311.pyc
+ create mode 100644 __pycache__/test_file.cpython-311.pyc
+ create mode 100644 main_file.py
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git log
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 19:08:22 2023 +0500
+    Added main file
+commit 1281963c249b9e8ec281c6cf564cb027f84d34ab (shahzaib)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 19:01:16 2023 +0500
+
+    Added Test file
+
+commit 2d898897319d2c38e3fba2e563e0616a85e96181 (main)
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:22:16 2023 +0500
+
+    Latest
+
+commit d4fd6a2b4100ead1db62a446a8959b75fbace82c
+Author: shahzaib-1997 <smsashafqat@gmail.com7>
+Date:   Wed May 24 17:15:33 2023 +0500
+
+    Added test file
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git status
+On branch child_branch
+nothing to commit, working tree clean
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout main
+Switched to branch 'main'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git merge child_branch
+Updating 2d89889..8cf541d
+Fast-forward
+ __pycache__/another_file.cpython-311.pyc | Bin 0 -> 298 bytes
+ __pycache__/test_file.cpython-311.pyc    | Bin 0 -> 296 bytes
+ main_file.py                             |   9 +++++++++
+ test_file.py                             |   2 ++
+ 4 files changed, 11 insertions(+)
+ create mode 100644 __pycache__/another_file.cpython-311.pyc
+ create mode 100644 __pycache__/test_file.cpython-311.pyc
+ create mode 100644 main_file.py
+ create mode 100644 test_file.py
+
+
+
+
+
+
+
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> & C:/Users/Shahzaib-PC/AppData/Local/Programs/Python/Python311/python.exe 
+"c:/Users/Shahzaib-PC/OneDrive/Git Training/User 1/simple_file.py"
+We are learning about git and github.
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> & C:/Users/Shahzaib-PC/AppData/Local/Programs/Python/Python311/python.exe 
+"c:/Users/Shahzaib-PC/OneDrive/Git Training/User 1/another_file.py"
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout 6f3fbc0072a0825fdc53259920e5b79746d2aab7
+Note: switching to '6f3fbc0072a0825fdc53259920e5b79746d2aab7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental 
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.      
+
+If you want to create a new branch to retain commits you create, you may
+
+  git switch -c <new-branch-name>
+Or undo this operation with:
+
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6f3fbc0 Initial Commit
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout main
+Previous HEAD position was 6f3fbc0 Initial Commit
+Switched to branch 'main'
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1>
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git checkout 6f3fbc0072a0825fdc53259920e5b79746d2aab7& C:/Users/Shahzaib-PC/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/Shahzaib-PC/OneDrive/Git Training/User 1/main_file.py"
+At line:1 char:54
++ git checkout 6f3fbc0072a0825fdc53259920e5b79746d2aab7& C:/Users/Shahz ...
++                                                      ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation    
+marks ("&") to pass it as part of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : AmpersandNotAllowed
+ 
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> & C:/Users/Shahzaib-PC/AppData/Local/Programs/Python/Python311/python.exe 
+"c:/Users/Shahzaib-PC/OneDrive/Git Training/User 1/main_file.py"
+3
+18
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git add .
+PS C:\Users\Shahzaib-PC\OneDrive\Git Training\User 1> git commit -m 'Added main file'
+[other_user 8cf541d] Added main file
+ 3 files changed, 9 insertions(+)
+ create mode 100644 __pycache__/another_file.cpython-311.pyc
+ create mode 100644 __pycache__/test_file.cpython-311.pyc
+ create mode 100644 main_file.py
