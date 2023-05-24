@@ -1,1 +1,2 @@
-print('We are learning about git and github.')
+def add(x,y):
+    return x+y
