@@ -1,6 +1,6 @@
 import pandas as pd
 
-from simple_file import add
+from Addition import add
 from Subtraction import sub
 from Multiplication import mul
 
