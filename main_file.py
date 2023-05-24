@@ -1,3 +1,5 @@
+import pandas as pd
+
 from another_file import sub
 from test_file import test
 
